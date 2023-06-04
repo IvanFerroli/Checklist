@@ -35,7 +35,7 @@ body {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Alinha apenas as interações à direita */
+  justify-content: flex-end; 
 }
 
 .checklist-item {
@@ -71,7 +71,7 @@ body {
   margin-top: 10px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end; /* Alinha apenas as interações à direita */
+  justify-content: flex-end;
 }
 
 .comment textarea {
@@ -91,7 +91,7 @@ body {
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  margin-left: 10px; /* Adiciona margem esquerda para separar dos inputs de data */
+  margin-left: 10px; 
 }
 
 @media (max-width: 768px) {
@@ -170,8 +170,6 @@ button {
   padding: 5px 10px;
   cursor: pointer;
 }
-
-/* Remove duplicatas */
 
 .checklist-item {
   border: 1px solid #ccc;
